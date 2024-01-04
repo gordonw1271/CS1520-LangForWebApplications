@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Buy</title>
+</head>
+<body>
+    <div style="float:left;margin-left:5%;width: 50%;height: 100px;">
+        <img src="/static/seating.png" alt="" style="margin-left:5%;width: 90%;height:800px">
+    </div>
+
+    <div style="float:left;margin-right: 5%;width: 40%;height: 600px;">
+        <form action="/transaction_page/mrs_doubt_fire/" method="POST">
+            <br><br><br>
+            <label for="zone">Zone</label>
+            <select style ="margin-right: 15%;" name="zone" id="zone">
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+                <option value="purple">Purple</option>
+                <option value="orange">Orange</option>
+            </select>
+
+            <label for="sector">Sector</label>
+            <select name="sector" id="sector">
+                <option value="right">Right</option>
+                <option value="rightCenter">Right Center</option>
+                <option value="center">Center</option>
+                <option value="leftCenter">Left Center</option>
+                <option value="left">Left</option>
+            </select>
+            <br><br><br><br><br><br>
+            <label for="name"> Customer Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <br>
+            <label for="dateAndTime"> Date and Time:</label><br>
+            <input type="text" id="dateAndTime" name="dateAndTime"><br>
+            <br>
+    
+            <input type="submit" value="Buy Tickets"><br><br>
+        </form>
+
+    </div>
+
+</body>
+</html>

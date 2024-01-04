@@ -1,0 +1,158 @@
+
+#allButton{
+    float:left;
+    margin:5px;
+    width: 45px;
+    height:30px;
+    padding: 5px;
+    border:1px solid black;
+    background-color: white;
+    text-align: center;
+    border-radius: 20%;
+}
+
+.button_long{
+    float:left;
+    margin:5px;
+    width: 120px;
+    height:30px;
+    padding: 5px;
+    background-color: #383838;
+    color:white;
+    text-align: center;
+    border-radius: 10%;
+    font-size: 85%;
+}
+
+.button_mid{
+    float:left;
+    margin:5px;
+    width: 90px;
+    height:30px;
+    padding: 5px;
+    background-color: #383838;
+    color:white;
+    text-align: center;
+    border-radius: 10%;
+    font-size: 85%;
+}
+
+.button_short{
+    float:left;
+    margin:5px;
+    width: 50px;
+    height:30px;
+    padding: 5px;
+    background-color: #383838;
+    color:white;
+    text-align: center;
+    border-radius: 10%;
+    font-size: 85%;
+}
+
+.nav2_img{
+    float:left;
+    margin:5px;
+    width:40px;
+    height:40px;
+}
+
+.nav1_right{
+    float:right;
+    position: relative;
+    margin: 20px 30px 0px 10px;
+    width:30;
+    height:30;
+}
+
+.thumbnail{
+    height:200px;
+    width:350px;
+}
+
+.search{
+    float:left;
+    margin: 17px 0px 17px 300px;
+}
+
+#searchBar{
+    float:left;
+    height: 40px;
+    width:500px;
+}
+
+.vid_image{
+    float: left;
+    margin:0px 23px 25px 0px;
+}
+
+#vid_image1{
+    float:left;
+    margin:0px 0px 25px 0px;
+}
+
+#side_bar{
+    float:left;
+    margin:5px 0px; 
+    width:20%;
+    height: 100%;
+}
+
+#body{
+    float:right;
+    margin:5px;
+    margin:5px 0px;
+    width:79%;
+    height:100%;
+}
+
+@media only screen and (max-width:450px){
+    div.buttons{
+        display:none;
+     }
+     .nav1_right{
+        display:none;
+     }
+
+     .search{
+        position: relative;
+        float:left;
+        margin: 0px;
+        margin-left: 0px;
+    }
+     #searchBar{
+        position: relative;
+        float: left;
+        width:250px;
+     }
+     #side_bar{
+        float:left;
+        margin:20px 0px; 
+        width:100%;
+        height: 45%;
+    }
+    #body{
+        float:left;
+        margin:5px;
+        width: 100%;
+        height:100%;
+    }
+     .thumbnail{
+        height:275px;
+        width:350px;
+    }
+
+     .vid_image{
+        float:left;
+        margin:0px 0px 20px 20px;
+    }
+
+    #vid_image1{
+        float:left;
+        margin:0px 0px 20px 20px;
+    }
+
+}
+
+
+

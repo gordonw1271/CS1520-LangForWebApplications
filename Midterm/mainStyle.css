@@ -1,0 +1,57 @@
+#topBar {
+    height: 90px;
+    width: 100%;
+    text-align: center;
+    border-bottom: solid;
+}
+
+#sideBar {
+    height: 100%;
+    width: 25%;
+    float: left;
+}
+
+#selection{
+    padding-left: 20%;
+}
+
+#body {
+    height: 100%;
+    width: 75%;
+    float: left;
+}
+#description{
+    display:block;
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#image{
+    display:block;
+    height: 45%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width:450px){
+    #selection{
+        padding-left: 5%;
+    }
+    #sideBar {
+        width: 100%;
+        height: 40%;
+        float: left;
+    }
+    #body {
+        width: 100%;
+        float: right;
+    }
+    #image{
+        width: 85%;
+        height: 25%;
+    }
+    #description{
+        width:80%;
+    }
+}

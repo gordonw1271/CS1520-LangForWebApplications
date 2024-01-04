@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kitchen</title>
+        <link rel="stylesheet" href="/static/kitchen.css">
+    </head>
+    <body>
+        <h1>Kitchen - List of Current Orders</h1>
+        <ul>
+            {% for item in orders %}
+                <div class = "order">
+                    <h4 class = "order_number">Order Number: {{ item.id }}</h4>
+                    <h4 class = "customer">Customer: {{ item.customer_name }}</h4>
+                    {% set list = item.order.split('\n') %}
+                    <ul>
+                        {% for item in list %}
+                            {% if not loop.last %}
+                                <li class = "list">{{ item }}</li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+
+                    <div class = "delete_button">
+                        <a href="/delete/{{item.id}}"><p id = "delete">delete</p></a>
+                    </div>
+                </div>
+            {% endfor %}
+        </ul>
+    </body>
+</html>

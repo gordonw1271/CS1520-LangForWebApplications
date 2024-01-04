@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+}
+
+.order{
+    width: 30%;
+    height: 50%;
+    margin: 0 3% 3% 0;
+    float: left;
+    background-color: orange;
+}
+
+.order_number{
+    margin-top: 2%;
+    margin-bottom: 0px;
+}
+.customer{
+    margin:2% 0;
+}
+.list{
+    text-align: left;
+}
+#delete{
+    margin: 1% 0;
+}
+
+.delete_button{
+    width: 30%;
+    height: 10%;
+    margin: 5% 40% 5% 40%;
+    background-color: aqua;
+    border: 1px solid black;
+}

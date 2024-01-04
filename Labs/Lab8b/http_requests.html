@@ -1,0 +1,74 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="http_requests.js"></script>
+</head>
+
+<body>
+    <h2 id="title"> HTTP Requests - JavaScript </h2>
+    <fieldset>
+        <legend> View All Smartphones </legend>
+        <button type="button" id="viewAllBlogEntriesButton"> View all Smartphone entries </button>
+        <br>        
+    </fieldset>
+
+    <fieldset>
+        <legend> View details of a single smartphone </legend>
+        <button type="button" id="getOneBlogEntryButton"> View Smartphone </button>
+        <input  type="text"   id="phoneNumberTextInput"   placeholder="Enter Smartphone ID number...">
+        <br>
+    </fieldset>
+
+    <fieldset>
+        <legend> Add a new Smartphone </legend>
+        <button type="button" id="addNewBlogButton"> Add new Smartphone </button> 
+        <ul>
+            <li><input  type="text"   id="insertNewBlogBrandTextInput" placeholder="Enter Brand..."></li>
+            <li><input  type="text"   id="insertNewBlogPriceTextInput" placeholder="Enter Price..."></li>
+            <li><input  type="text"   id="insertNewBlogScreenSizeTextInput" placeholder="Enter Screen Size..."><br></li>
+            <li><input  type="text"   id="insertNewBlogPixelTextInput" placeholder="Enter Pixels..."></li>
+            <li><input  type="text"   id="insertNewBlogResolutionTextInput" placeholder="Enter Screen Resolution..."></li>
+            <li><input  type="text"   id="insertNewBlogStorageTextInput" placeholder="Enter Storage..."><br></li>
+            <li><input  type="text"   id="insertNewBlogRAMTextInput" placeholder="Enter RAM Size..."></li>
+            <li><input  type="text"   id="insertNewBlogBatteryTextInput" placeholder="Enter Battery Capacity..."></li>
+            <li><input  type="text"   id="insertNewBlogWeightTextInput" placeholder="Enter Weight..."><br></li>
+        </ul>
+    </fieldset>
+
+    <fieldset>
+        <legend> Update an existing Smartphone </legend>
+        <button type="button" id="updateExistingBlogButton"> Update Existing Smartphone </button> 
+        <ul>
+            <li><input  type="text"   id="updateExistingPhoneTextInput" placeholder="Enter Smartphone ID..."><br></li>
+
+            <li><input  type="text"   id="updateExistingBlogBrandTextInput" placeholder="Enter Brand..."></li>
+            <li><input  type="text"   id="updateExistingBlogPriceTextInput" placeholder="Enter Price..."></li>
+            <li><input  type="text"   id="updateExistingBlogScreenTextInput" placeholder="Enter Screen Size..."><br></li>
+            <li><input  type="text"   id="updateExistingBlogPixelTextInput" placeholder="Enter Pixels..."><br></li>
+            <li><input  type="text"   id="updateExistingBlogResTextInput" placeholder="Enter Screen Resolution..."></li>
+            <li><input  type="text"   id="updateExistingBlogStorageTextInput" placeholder="Enter Storage..."></li>
+            <li><input  type="text"   id="updateExistingBlogRamTextInput" placeholder="Enter RAM Size..."><br></li>
+            <li><input  type="text"   id="updateExistingBlogBatteryTextInput" placeholder="Enter Battery Capacity..."><br></li>
+            <li><input  type="text"   id="updateExistingBlogWeightTextInput" placeholder="Enter Weight..."></li>
+        </ul>
+    </fieldset>
+
+    <fieldset>
+        <legend> Deleting an existing Smartphone </legend>
+        <button type="button" id="deleteExistingBlogButton"> Delete Smartphone </button> 
+        <input  type="text"   id="deleteExistingPhoneNumberTextInput" placeholder="Enter Smartphone Number..."><br>
+    </fieldset>
+
+    <!-- add fieldset for displaying output from http requests -->
+    <fieldset>
+        <legend> Response Display </legend>
+        <div id="resultsId"></div>
+    </fieldset>
+
+</body>
+
+</html>

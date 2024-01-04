@@ -1,0 +1,19 @@
+.plays{
+    outline: 1px solid gray;
+    height: 350px;
+    width: 31%;
+    float: left;
+    margin: 1%;
+}
+
+.pic{
+    width:100%; 
+    height:185px;
+}
+
+#banner{
+    background-color: aquamarine;
+    width: 100%;
+    height: 500 px;
+}
+

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Order Summary</title>
+        <script type="text/javascript" src="/static/order.js"></script>
+    </head>
+    <body>
+        <h1>Order Summary</h1>
+        <h2>Order Number: </h2>
+        <h2>Customer Name: {{order_summary.name}}</h2>
+        <h2>List of items: </h2>
+        {% set list = order_summary.order.split('\n') %}
+        <ul>
+            {% for item in list %}
+                {% if not loop.last %}
+                    <li>{{ item }}</li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </body>
+</html>

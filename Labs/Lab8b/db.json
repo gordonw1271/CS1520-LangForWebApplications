@@ -1,0 +1,55 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "brand": "Apple iPhone XS Max",
+      "price": 270,
+      "screen": 6.5,
+      "pixels": "1242 x 2688",
+      "resolution": 456,
+      "storage": 64,
+      "ram": 4,
+      "battery": 3174,
+      "weight": 7.34
+    },
+    {
+      "id": 2,
+      "brand": "SAMSUNG Galaxy A50",
+      "price": 299.99,
+      "screen": 6.4,
+      "pixels": "1080 x 2340",
+      "resolution": 403,
+      "storage": 64,
+      "ram": 4,
+      "battery": 4000,
+      "weight": 5.86
+    },
+    {
+      "id": 3,
+      "brand": "LG G7 ThinQ",
+      "price": 169.99,
+      "screen": 6.1,
+      "pixels": "1440 x 3120",
+      "resolution": 563,
+      "storage": 64,
+      "ram": 4,
+      "battery": 3000,
+      "weight": 5.71
+    },
+    {
+      "id": 4,
+      "brand": "Google Pixel 4",
+      "price": 349.99,
+      "screen": 5.7,
+      "pixels": "1080 x 2280",
+      "resolution": 443,
+      "storage": 128,
+      "ram": 6,
+      "battery": 2800,
+      "weight": 5.71
+    }
+  ],
+  "info": {
+    "Info": "to simulate an API from this db.json, type the following commande in the terminal window: npx json-server --watch db.json --port 8000"
+  }
+}
